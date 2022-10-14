@@ -1,0 +1,44 @@
+html {
+  /* px 表示“像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 10px;
+  /* Google fonts 输出的 CSS */
+  font-family: 'Open Sans', sans-serif;
+  /* 更改页面颜色 */
+  background-color: #9e7b9f;
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;/* 即外边距，围绕元素外部的空间。 */
+    padding: 20px 0;/* 即内边距，围绕着内容（比如段落）的空间。 */
+    color: #00539F;
+	/* 为元素内的文本设置阴影 */
+    text-shadow: 3px 3px 1px black;
+	/* 第一个值设置水平偏移值 —— 即阴影右移的像素数（负值左移）。
+	第二个值设置垂直偏移值 —— 即阴影下移的像素数（负值上移）。
+	第三个值设置阴影的模糊半径 —— 值越大产生的阴影越模糊。
+	第四个值设置阴影的基色。 */
+}
+
+p, li {
+  font-size: 16px;
+  /* line-height 后面可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+  line-height: 2;
+  letter-spacing: 1px;
+  /* float: left; */
+}
+body {
+	/* 强制页面永远保持 600 像素宽。 */
+  width: 600px;
+  /* 水平居中 */
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  /* 直接为 body 设置 5 像素的黑色实线边框。 */
+  border: 5px solid black;/* 即边框，紧接着内边距的线。 */
+}
+img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
